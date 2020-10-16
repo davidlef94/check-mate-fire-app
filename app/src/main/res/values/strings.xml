@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">CheckMateFire</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fire_door_detail_fragment">Fire Door Detail Fragment</string>
+    <string name="fire_door_list_fragment">Fire Door List Fragment</string>
+    <string name="media_fragment">Media Fragment</string>
+    <string name="delete_fire_door">Delete Fire Door</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="door_number">Door Number</string>
+    <string name="door_location">Door Location</string>
+    <string name="labelled">Labelled?</string>
+    <string name="_4mm_gap">4mm Gap?</string>
+    <string name="instrumescent_seal">Intumescent Seal?</string>
+    <string name="_3_hinges">3 Hinges?</string>
+    <string name="door_closures_work">Door Closures Work?</string>
+    <string name="glazing_and_glass">Glazing and Glass</string>
+    <string name="door_leaf_ok">Door Leaf ok?</string>
+    <string name="door_frame_ok">Door Frame ok?</string>
+    <string name="door_operation_ok">Door Operation ok?</string>
+    <string name="comments">Comments</string>
+    <string name="photo_library">Photo Library</string>
+    <string name="action_required_y_n">Action Required Y/N?</string>
+    <string name="fire_door_1">Fire Door Number</string>
+    <string name="fire_door_location">Fire Door Location</string>
+    <string name="fire_door_comments">Fire Door Comments</string>
+    <string name="date">Date</string>
+    <string name="add_fire_door">Add Fire Door</string>
+    <string name="cancel">Cancel</string>
+    <string name="accept">Accept</string>
+    <string name="delete_dialog_title">Delete Document</string>
+    <string name="delete_dialog_supporting_text">Are you sure you want to delete this document?</string>
+    <string name="delete_dialog_photo">Are you sure you want to delete this photo?</string>
+    <string name="media">Media</string>
+    <string name="image_will_be_here">Image Will be Here</string>
+    <string name="photo_image">Photo Image</string>
+    <string name="navigate_back">Navigate Back</string>
+    <string name="delete_photo">Delete Photo</string>
+    <string name="no">No:</string>
+    <string name="location">Location:</string>
+    <string name="action_required">Action Required:</string>
+    <string name="y">Y</string>
+    <string name="created_on">Created On:</string>
+    <string name="photos">Photos</string>
+    <string name="search_hint">Search Fire Door</string>
+    <string name="search_fire_door">Search Fire Door</string>
+    <string name="filter_list">Filter List</string>
+    <string name="all">All</string>
+    <string name="action_required_menu">Action Required</string>
+    <string name="clear">Clear</string>
+    <string name="labelled_menu">Labelled</string>
+    <string name="_4mm_gap_menu">4mm Gap</string>
+    <string name="instrumescent_seal_menu">Intumescent Seal</string>
+    <string name="three_hinges_menu">3 Hinges</string>
+    <string name="door_closures_work_menu">Door Closures Work</string>
+    <string name="glazing_and_glass_menu">Glazing and Glass</string>
+    <string name="door_leaf_ok_menu">Door Leaf ok</string>
+    <string name="door_frame_ok_menu">Door Frame ok</string>
+    <string name="door_operation_ok_menu">Door Operation ok</string>
+    <string name="top_max">Top - max 4mm</string>
+    <string name="bottom_max">Bottom - max 10mm</string>
+    <string name="left_max">Left - max 4mm</string>
+    <string name="right_max">Right - max 4mm</string>
+
+    <!-- Spinner for door locations in premises -->
+    <string-array name="doors_array">
+        <item>3rd Floor - Pauling Close</item>
+        <item>2nd Floor - JC Street</item>
+        <item>2nd Floor - Nobel Square</item>
+        <item>1st Floor - Bragg Avenue</item>
+        <item>1st Floor - Davis Grove</item>
+        <item>Ground - NHS</item>
+        <item>Ground - Day Center</item>
+        <item>Ground - Main Building</item>
+    </string-array>
+</resources>

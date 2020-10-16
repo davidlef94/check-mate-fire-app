@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/all"
+        android:title="@string/all" />
+    <item
+        android:id="@+id/action_required"
+        android:title="@string/action_required_menu" />
+
+    <item
+        android:id="@+id/labelled"
+        android:title="@string/labelled_menu" />
+
+    <item
+        android:id="@+id/instrumescent_seal"
+        android:title="@string/instrumescent_seal_menu" />
+
+    <item
+        android:id="@+id/three_hinges"
+        android:title="@string/three_hinges_menu" />
+
+    <item
+        android:id="@+id/door_closure_work"
+        android:title="@string/door_closures_work_menu" />
+
+    <item
+        android:id="@+id/glazing_and_glass"
+        android:title="@string/glazing_and_glass_menu" />
+
+    <item
+    android:id="@+id/door_leaf_ok"
+    android:title="@string/door_leaf_ok_menu" />
+
+    <item
+        android:id="@+id/door_frame_ok"
+        android:title="@string/door_frame_ok_menu" />
+
+    <item
+        android:id="@+id/door_operation_ok"
+        android:title="@string/door_operation_ok_menu" />
+
+</menu>

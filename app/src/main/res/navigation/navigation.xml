@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/fireDoorListFragment">
+
+    <fragment
+        android:id="@+id/fireDoorListFragment"
+        android:name="com.example.davidgormally.checkmatefire.firedoorlist.FireDoorListFragment"
+        android:label="fragment_fire_door_list"
+        tools:layout="@layout/fragment_fire_door_list" >
+        <action
+            android:id="@+id/action_fireDoorListFragment_to_fireDoorDetailFragment"
+            app:destination="@id/fireDoorDetailFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/fireDoorDetailFragment"
+        android:name="com.example.davidgormally.checkmatefire.firedoordetail.FireDoorDetailFragment"
+        android:label="fragment_fire_door_detail"
+        tools:layout="@layout/fragment_fire_door_detail">
+        <argument
+            android:name="fireDoorId"
+            app:argType="string"/>
+        <action
+            android:id="@+id/action_fireDoorDetailFragment_to_mediaFragment"
+            app:destination="@id/mediaFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/mediaFragment"
+        android:name="com.example.davidgormally.checkmatefire.media.MediaFragment"
+        android:label="fragment_media_detail"
+        tools:layout="@layout/fragment_media_detail">
+        <argument
+            android:name="mediaId"
+            app:argType="string"/>
+
+    </fragment>
+</navigation>
